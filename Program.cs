@@ -13,12 +13,16 @@ namespace Bhaskara
        
             Console.WriteLine("Digite o valor de a: ");
             a = Double.Parse(Console.ReadLine());
+
             Console.WriteLine("Digite o valor de b: ");
             b = Double.Parse(Console.ReadLine());
+
             Console.WriteLine("Digite o valor de c: ");
             c = Double.Parse(Console.ReadLine());
+
             delta = (b*b) - 4*a*c;
             Console.WriteLine("O valor de Delta é: " + delta);
+            
             x1 = (-b + Math.Sqrt(delta)) / 2 * a;
             x2 = (-b - Math.Sqrt(delta)) / 2 * a;
             
